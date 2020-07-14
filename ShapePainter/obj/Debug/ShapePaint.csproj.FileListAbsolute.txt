@@ -1,0 +1,13 @@
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\bin\Debug\Editor.exe.config
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\bin\Debug\Editor.exe
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\bin\Debug\Editor.pdb
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\bin\Debug\Figures.dll
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\bin\Debug\Figures.pdb
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\ShapePaint.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\Editor.FormMain.resources
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\Editor.Properties.Resources.resources
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\ShapePaint.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\ShapePaint.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\ShapePaint.csproj.CopyComplete
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\Editor.exe
+\\Mac\Home\Downloads\DevDraw\ShapePainter\ShapePaint\obj\Debug\Editor.pdb

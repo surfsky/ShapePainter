@@ -1,0 +1,158 @@
+
+----------------------------------
+        private Point CheckPosition(Point p)
+        {
+            if(isPressed)
+            {
+                if (p.X <= 0)
+                {
+                    p = new Point(5, p.Y);
+                }
+                else if (p.X >= pictureBox1.Width)
+                {
+                    p = new Point(pictureBox1.Width-5, p.Y);
+                }
+                else if (p.Y <= 0)
+                {
+                    p = new Point(p.X, 5);
+                }
+                else if (p.Y >= pictureBox1.Height)
+                {
+                    p = new Point(p.X, pictureBox1.Height-5);
+                }
+            }
+            return p;
+            
+        }
+
+
+            public class CreateRect: FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Rect(a, b);
+            /*
+            // 动态加载数据集，然后再创建
+            Assembly asm = Assembly.Load("Rect");
+            Type t = asm.GetType("Rect.Rect");
+            foreach (Type type in asm.GetTypes())
+            {
+                Console.WriteLine(type.FullName.ToString());
+            }
+            //AbstrFigure fig = Activator.CreateInstance(t, new Object[] { a, b }) as AbstrFigure;
+            return Activator.CreateInstance(t,new Object[] { a, b }) as Figure;
+            //return (AbstrFigure)asm.CreateInstance("Rect");
+            */
+            //Assembly asm = Assembly.Load("Figures");
+            //Type t = asm.GetType("Figures.Rect");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }
+
+    public class CreateOval : FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Oval(a, b);
+            //Assembly asm = Assembly.Load("Figures");
+            //Type t = asm.GetType("Figures.Oval");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }
+
+    public class CreateRhombus : FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Rhombus(a, b);
+            //Assembly asm = Assembly.Load("Rhombus");
+            //Type t = asm.GetType("Rhombus.Rhombus");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }
+
+    public class CreateLine : FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Line(a, b);
+            //Assembly asm = Assembly.Load("Line");
+            //Type t = asm.GetType("Line.Line");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }
+
+    public class CreateTriangle : FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Triangle(a, b);
+            //Assembly asm = Assembly.Load("Triangle");
+            //Type t = asm.GetType("Triangle.Triangle");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }
+
+    public class CreateStar : FigureFactory
+    {
+        public override Figure FactoryMethod(Point a, Point b)
+        {
+            return new Star(a, b);
+            //Assembly asm = Assembly.Load("Star");
+            //Type t = asm.GetType("Star.Star");
+            //return Activator.CreateInstance(t, new Object[] { a, b }) as Figure;
+        }
+    }        public virtual Figure FactoryMethod(Point a, Point b) { }
+
+switch (type)
+                    {
+                        case "Rect":
+                            Factory = new CreateRect();
+                            break;
+                        case "Oval":
+                            Factory = new CreateOval();
+                            break;
+                        case "Line":
+                            Factory = new CreateLine();
+                            break;
+                        case "Triangle":
+                            Factory = new CreateTriangle();
+                            break;
+                        case "Rhombus":
+                            Factory = new CreateRhombus();
+                            break;
+                        case "Star":
+                            Factory = new CreateStar();
+                            break;
+                        default:
+                            Factory = null;
+                            break;
+                    }
+                    Figure figure = Factory.FactoryMethod(a, b);
+
+                    
+        //
+        private Pen GetPen()
+        {
+            return new Pen(color, 5);
+        }
+        static void SelectFigure(ISelectable figure)
+        {
+        }
+	    Color color = Color.Black; 
+        FiguresList figures2 = FiguresList.GetInstance();
+        Bitmap bmp;
+            bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+        bool _selecting = false;
+
+
+                public virtual void Clear()
+        {
+        }
+
+                public override void Clear()
+        {
+            Pen pen = new Pen(Color.White, 5);
+            G.DrawRectangle(pen, X, Y, W, H);
+            pen.Dispose();
+        }

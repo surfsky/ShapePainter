@@ -1,0 +1,12 @@
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\obj\Debug\Figures.csprojAssemblyReference.cache
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\bin\Debug\Figures.dll
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\bin\Debug\Figures.pdb
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\obj\Debug\Figures.dll
+\\Mac\Downloads\DevDraw\ref\PaintX-CSharp-Edition-master\Figures\obj\Debug\Figures.pdb
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\bin\Debug\Figures.dll
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\bin\Debug\Figures.pdb
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\obj\Debug\Figures.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\obj\Debug\Figures.dll
+\\Mac\Home\Downloads\DevDraw\ShapePainter\Figures\obj\Debug\Figures.pdb
